@@ -34,8 +34,11 @@ making a total of 60 time slots numbered from 1 to 60.
 
 # Folder structure
 ├── analyze                 # contains some analysis information
+
 │   └── ...
+
 ├── CP_model.pdf            # how we model the problem
+
 ├── ILP_model.pdf
 ├── Heuristic.pdf
 ├── GA_model.pdf
