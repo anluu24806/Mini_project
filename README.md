@@ -16,7 +16,7 @@ You can find a comprehensive explanation of our problem modeling, data generatio
 
 There are N classes labeled 1, 2, ..., N that need to be scheduled.
 
-## Each class i has:
+### Each class i has:
 + t(i): the number of sessions (time slots) it requires  
 + g(i): the teacher assigned to teach the class  
 + s(i): the number of students in the class  
@@ -27,7 +27,7 @@ c(i): the seating capacity of room i.
 The week consists of 5 days (from Monday to Friday), each day has 12 periods (6 in the morning and 6 in the afternoon),
 making a total of 60 time slots numbered from 1 to 60.
 
-## The goal is to schedule the classes (assigning a day, time slot, and room for each class), satisfying the following constraints:
+### The goal is to schedule the classes (assigning a day, time slot, and room for each class), satisfying the following constraints:
 + Classes taught by the same teacher must not overlap in time  
 + The number of students in a class must not exceed the capacity of the assigned classroom  
 + The number of scheduled classes should be maximized
