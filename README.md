@@ -9,6 +9,7 @@ This is a mini-project for topic 9 in Fundamentals of Optimization course of SoI
 | Nguyen Bao Phong    | 202416731   | [phong.nb2416731@sis.hust.edu.vn](mailto:phong.nb2416731@sis.hust.edu.vn) |
 | Nguyen Tran Trung  | 202400117   | [trung.nt2400117@sis.hust.edu.vn](mailto:trung.nt2400117@sis.hust.edu.vn) |
 You can find a comprehensive explanation of our problem modeling, data generation techniques, results, and further details in "our full report."
+
 #Problem
 There are N classes labeled 1, 2, ..., N that need to be scheduled.
 ##Each class i has:
