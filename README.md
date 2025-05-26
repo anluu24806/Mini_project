@@ -40,23 +40,41 @@ making a total of 60 time slots numbered from 1 to 60.
 ├── CP_model.pdf            # how we model the problem
 
 ├── ILP_model.pdf
+
 ├── Heuristic.pdf
+
 ├── GA_model.pdf
+
 ├── assets
+
 ├── figure                  # contains generated figures
+
 │   ├── generated_CP
+
 │   │   └── ...
+
 │   ├── generated_HEU
+
 │   │   └── ...
+
 │   └── gen_figure.py       # figure generator
+
 ├── input_data              # contains generated data
+
 │   └── ...
+
 ├── presentation
+
 ├── results                 # contains results from solver
+
 │   └── ...
+
 ├── script                  # script file for collect result and gen figure
+
 │   └── ...
+
 └── solver_file             # contains solver files
+
     ├── CP_model_solver
     │   └── ...
     ├── Heuristic
