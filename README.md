@@ -33,52 +33,31 @@ making a total of 60 time slots numbered from 1 to 60.
 + The number of scheduled classes should be maximized
 
 # Folder structure
-├── analyze                 # contains some analysis information
-
-│   └── ...
-
-├── CP_model.pdf            # how we model the problem
-
-├── ILP_model.pdf
-
-├── Heuristic.pdf
-
-├── GA_model.pdf
-
-├── assets
-
-├── figure                  # contains generated figures
-
-│   ├── generated_CP
-
-│   │   └── ...
-
-│   ├── generated_HEU
-
-│   │   └── ...
-
-│   └── gen_figure.py       # figure generator
-
-├── input_data              # contains generated data
-
-│   └── ...
-
-├── presentation
-
-├── results                 # contains results from solver
-
-│   └── ...
-
-├── script                  # script file for collect result and gen figure
-
-│   └── ...
-
-└── solver_file             # contains solver files
-
-    ├── CP_model_solver
+    ├── analyze                 # contains some analysis information
     │   └── ...
-    ├── Heuristic
+    ├── CP_model.pdf            # how we model the problem
+    ├── ILP_model.pdf
+    ├── Heuristic.pdf
+    ├── GA_model.pdf
+    ├── assets
+    ├── figure                  # contains generated figures
+    │   ├── generated_CP
+    │   │   └── ...
+    │   ├── generated_HEU
+    │   │   └── ...
+    │   └── gen_figure.py       # figure generator
+    ├── input_data              # contains generated data
     │   └── ...
-    └── ILP_model.py
+    ├── presentation
+    ├── results                 # contains results from solver
+    │   └── ...
+    ├── script                  # script file for collect result and gen figure
+    │   └── ...
+    └── solver_file             # contains solver files
+        ├── CP_model_solver
+        │   └── ...
+        ├── Heuristic
+        │   └── ...
+        └── ILP_model.py
 # Visualizer 
 ![ABC](https://github.com/anluu24806/Mini_project/blob/main/Screenshot%202025-05-26%20235245.png)
