@@ -24,10 +24,38 @@ There are N classes labeled 1, 2, ..., N that need to be scheduled.
 There are M classrooms labeled 1, 2, ..., M, where:  
 c(i): the seating capacity of room i.
 
-The week consists of 5 days (from Monday to Friday), each day has 12 periods (6 in the morning and 6 in the afternoon),  
+The week consists of 5 days (from Monday to Friday), each day has 12 periods (6 in the morning and 6 in the afternoon),
 making a total of 60 time slots numbered from 1 to 60.
 
 ## The goal is to schedule the classes (assigning a day, time slot, and room for each class), satisfying the following constraints:
 + Classes taught by the same teacher must not overlap in time  
 + The number of students in a class must not exceed the capacity of the assigned classroom  
 + The number of scheduled classes should be maximized
+
+# Folder structure
+├── analyze                 # contains some analysis information
+│   └── ...
+├── CP_model.pdf            # how we model the problem
+├── ILP_model.pdf
+├── Heuristic.pdf
+├── GA_model.pdf
+├── assets
+├── figure                  # contains generated figures
+│   ├── generated_CP
+│   │   └── ...
+│   ├── generated_HEU
+│   │   └── ...
+│   └── gen_figure.py       # figure generator
+├── input_data              # contains generated data
+│   └── ...
+├── presentation
+├── results                 # contains results from solver
+│   └── ...
+├── script                  # script file for collect result and gen figure
+│   └── ...
+└── solver_file             # contains solver files
+    ├── CP_model_solver
+    │   └── ...
+    ├── Heuristic
+    │   └── ...
+    └── ILP_model.py
