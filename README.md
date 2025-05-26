@@ -59,3 +59,5 @@ making a total of 60 time slots numbered from 1 to 60.
     ├── Heuristic
     │   └── ...
     └── ILP_model.py
+# Visualizer 
+![ABC](https://github.com/anluu24806/Mini_project/blob/main/Screenshot%202025-05-26%20235245.png)
