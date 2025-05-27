@@ -60,4 +60,4 @@ making a total of 60 time slots numbered from 1 to 60.
         │   └── ...
         └── ILP_model.py
 # Visualizer 
-![ABC]([https://github.com/anluu24806/Mini_project/blob/main/Screenshot%202025-05-26%20235245.png](https://github.com/anluu24806/Mini_project/blob/main/Pictures/Screenshot%202025-05-26%20235245.png))
+![ABC](https://github.com/anluu24806/Mini_project/blob/main/Pictures/Screenshot%202025-05-26%20235245.png)
