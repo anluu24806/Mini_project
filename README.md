@@ -34,10 +34,10 @@ making a total of 60 time slots numbered from 1 to 60.
 # Analysis
 ![ABC](https://github.com/anluu24806/Mini_project/blob/main/RESULT/Screenshot%202025-05-27%20210731.png)
 
-### + In cases with a small number of rooms (M), the heuristic algorithm often yields a smaller number of scheduled classes (f) compared to CP and ILP methods.
-### + This suggests that the heuristic method may be less effective in highly constrained scenarios.
-### + Despite this, the heuristic algorithm demonstrates consistently faster computation times than CP and ILP.
-### + Therefore, while exact methods (CP, ILP) produce better solutions in tight constraints, heuristics are more suitable when speed is prioritized.
+##### + In cases with a small number of rooms (M), the heuristic algorithm often yields a smaller number of scheduled classes (f) compared to CP and ILP methods.
+##### + This suggests that the heuristic method may be less effective in highly constrained scenarios.
+##### + Despite this, the heuristic algorithm demonstrates consistently faster computation times than CP and ILP.
+##### + Therefore, while exact methods (CP, ILP) produce better solutions in tight constraints, heuristics are more suitable when speed is prioritized.
 
 # Folder structure
     ├── analyze                 # contains some analysis information
