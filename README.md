@@ -31,6 +31,8 @@ making a total of 60 time slots numbered from 1 to 60.
 + Classes taught by the same teacher must not overlap in time  
 + The number of students in a class must not exceed the capacity of the assigned classroom  
 + The number of scheduled classes should be maximized
+# Analysis
+
 
 # Folder structure
     ├── analyze                 # contains some analysis information
