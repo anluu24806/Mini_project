@@ -32,8 +32,7 @@ making a total of 60 time slots numbered from 1 to 60.
 + The number of students in a class must not exceed the capacity of the assigned classroom  
 + The number of scheduled classes should be maximized
 # Analysis
-<p align="center"><strong><span style="font-size:200px">SMALL TESTS</span></strong></p>
-
+<p align="center"><strong><span style="font-size:2000000px">SMALL TESTS</span></strong></p>
 ![ABC](https://github.com/anluu24806/Mini_project/blob/main/RESULT/Screenshot%202025-05-27%20210731.png)
 
 ##### + In cases with a small number of rooms (M), the heuristic algorithm often yields a smaller number of scheduled classes (f) compared to CP and ILP methods.
