@@ -32,7 +32,7 @@ making a total of 60 time slots numbered from 1 to 60.
 + The number of students in a class must not exceed the capacity of the assigned classroom  
 + The number of scheduled classes should be maximized
 # Analysis
-
+![ABC](https://github.com/anluu24806/Mini_project/blob/main/Pictures/Screenshot%202025-05-26%20235245.png)
 
 # Folder structure
     ├── analyze                 # contains some analysis information
