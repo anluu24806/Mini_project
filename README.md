@@ -40,6 +40,32 @@ making a total of 60 time slots numbered from 1 to 60.
 ##### + Despite this, the heuristic algorithm demonstrates consistently faster computation times than CP and ILP.
 ##### + Therefore, while exact methods (CP, ILP) produce better solutions in tight constraints, heuristics are more suitable when speed is prioritized.
 
+![ABC](https://github.com/anluu24806/Mini_project/blob/main/Pictures/Screenshot%202025-05-28%20111645.png)
+🔎 Observations from Large-Scale Test Cases
+From experiments involving a large number of classes (N) and limited room resources (M), the following insights were observed:
+
+⚡ Greedy Heuristic
+✅ Very fast execution — typically within milliseconds.
+
+❌ Misses many feasible assignments when resource constraints are tight.
+
+📉 For instance, in input1.txt, it scheduled only 87/102 classes, compared to 92 from exact methods.
+
+🧮 ILP (Integer Linear Programming)
+✅ Produces high-quality solutions when sufficient time is available.
+
+🕒 Very slow on larger or more constrained inputs — frequently hits time limits (e.g., input5.txt, input7.txt).
+
+⚖️ Strong in quality but poor time efficiency on large instances.
+
+🧩 CP (Constraint Programming)
+✅ Offers a balanced trade-off between runtime and solution quality.
+
+🥇 Consistently reaches optimal or near-optimal solutions within a reasonable time.
+
+📈 Ideal for scenarios where both accuracy and efficiency are required.
+
+
 # Folder structure
     ├── analyze                 # contains some analysis information
     │   └── ...
