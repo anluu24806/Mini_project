@@ -44,21 +44,24 @@ making a total of 60 time slots numbered from 1 to 60.
 🔎 Observations from Large-Scale Test Cases
 From experiments involving a large number of classes (N) and limited room resources (M), the following insights were observed:
 
-⚡ Greedy Heuristic
+### ⚡ Greedy Heuristic
+
 ✅ Very fast execution — typically within milliseconds.
 
 ❌ Misses many feasible assignments when resource constraints are tight.
 
 📉 For instance, in input1.txt, it scheduled only 87/102 classes, compared to 92 from exact methods.
 
-🧮 ILP (Integer Linear Programming)
+### 🧮 ILP (Integer Linear Programming)
+
 ✅ Produces high-quality solutions when sufficient time is available.
 
 🕒 Very slow on larger or more constrained inputs — frequently hits time limits (e.g., input5.txt, input7.txt).
 
 ⚖️ Strong in quality but poor time efficiency on large instances.
 
-🧩 CP (Constraint Programming)
+### 🧩 CP (Constraint Programming)
+
 ✅ Offers a balanced trade-off between runtime and solution quality.
 
 🥇 Consistently reaches optimal or near-optimal solutions within a reasonable time.
