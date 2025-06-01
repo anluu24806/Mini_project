@@ -33,7 +33,7 @@ making a total of 60 time slots numbered from 1 to 60.
 + The number of scheduled classes should be maximized
 # Analysis
 
-![ABC](https://github.com/anluu24806/Mini_project/blob/main/Pictures/Screenshot%202025-06-01%20230449.png)
+![ABC](https://github.com/anluu24806/Mini_project/blob/main/Pictures/Screenshot%202025-06-01%20230752.png)
 
 ##### + In cases with a small number of rooms (M), the heuristic algorithm often yields a smaller number of scheduled classes (f) compared to CP and ILP methods.
 ##### + This suggests that the heuristic method may be less effective in highly constrained scenarios.
