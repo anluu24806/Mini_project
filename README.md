@@ -40,7 +40,7 @@ making a total of 60 time slots numbered from 1 to 60.
 ##### + Despite this, the heuristic algorithm demonstrates consistently faster computation times than CP and ILP.
 ##### + Therefore, while exact methods (CP, ILP) produce better solutions in tight constraints, heuristics are more suitable when speed is prioritized.
 
-![ABC](https://github.com/anluu24806/Mini_project/blob/main/Pictures/Screenshot%202025-05-28%20111645.png)
+![ABC](https://github.com/anluu24806/Mini_project/blob/main/Pictures/Screenshot%202025-06-01%20224806.png)
 🔎 Observations from Large-Scale Test Cases
 From experiments involving a large number of classes (N) and limited room resources (M), the following insights were observed:
 
