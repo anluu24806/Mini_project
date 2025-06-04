@@ -32,6 +32,19 @@ making a total of 60 time slots numbered from 1 to 60.
 + The number of students in a class must not exceed the capacity of the assigned classroom  
 + The number of scheduled classes should be maximized
 # Analysis
+## Small tests
+![image](https://github.com/user-attachments/assets/12a911b6-e91e-47f0-b425-3816c73911d4)
+## Normal tests
+![Screenshot 2025-06-04 214947](https://github.com/user-attachments/assets/58e1d9ef-5a57-4e0c-979c-bc9c52266182)
+![normal_real](https://github.com/user-attachments/assets/4810d6e5-48b2-491e-83da-0c9ac57e6c4b)
+## Large tests
+![image](https://github.com/user-attachments/assets/c466bc1c-d042-48c4-acaf-054088c16bb8)
+![large](https://github.com/user-attachments/assets/c11284a3-b7fa-45a4-8c76-5f14ae910759)
+
+
+## Huge tests
+
+
 
 
 
